@@ -1,0 +1,55 @@
+.main-brand {
+    max-width: 400px;
+    width: 100%;
+}
+
+.main-header {
+    background-color: var(--maroon);
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.menu-top-nav-container {
+    background-color: var(--maroon);
+    border-radius: 25px 25px 0px 0px;
+    padding: 1%;
+}
+
+.mobile-todays-hours {
+    display: none;
+    font-weight: bold;
+}
+
+.mobile-todays-hours a {
+    color: black;
+}
+
+.navbar {
+    background-color: var(--darkGrey);
+    color: var(--white);
+}
+
+.todays-hours {
+    text-align: right;
+    font-weight: bold;
+}
+
+.todays-hours a {
+    color: var(--white);
+}
+
+.todays-hours a:hover {
+    color: var(--white);
+}
+
+@media (max-width: 576px) {
+    .todays-hours {
+        display: none;
+    }
+    .mobile-todays-hours {
+        display: block;
+    }
+    .mobile-todays-hours a {
+        color: black;
+    }
+}

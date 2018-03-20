@@ -1,0 +1,25 @@
+.main-footer {
+    background-color: var(--lightGrey);
+    padding-right: 1%;
+    padding-top: 1%;
+}
+
+.main-footer ul {
+    list-style-type: none;
+}
+
+.help-links-row {
+    color: var(--white);
+    background-color: #660000;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.help-links-row a,
+a:hover {
+    color: var(--white);
+}
+
+.help-links-row a:hover {
+    color: var(--white);
+}

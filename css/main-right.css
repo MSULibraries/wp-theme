@@ -1,0 +1,11 @@
+.main-right {
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    padding: 5%;
+}
+
+@media (max-width: 576px) {
+    .main-right {
+        display: none;
+    }
+}

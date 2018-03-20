@@ -1,0 +1,36 @@
+/*
+Theme Name: MSU Lib Theme
+Author: Brooks Becton
+Description:  Custom theme created for Mississippi State Libraries
+textdomain: msulib
+*/
+
+:root {
+    --maroon: #660000;
+    --lightGrey: #f8f9fa;
+    --darkGrey: #777777;
+    --lightBlue: #BDD6E6
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.main-navigation ul {
+    background-color: #f0eeef;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navigation ul li {
+    display: inline;
+}
+
+.main-navigation ul li a {
+    color: black;
+    text-decoration: none;
+}
